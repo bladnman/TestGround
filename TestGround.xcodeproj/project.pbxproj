@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41AC62BA2A43E4080012DDF8 /* TestGroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC62B92A43E4080012DDF8 /* TestGroundApp.swift */; };
 		41AC62BC2A43E4080012DDF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC62BB2A43E4080012DDF8 /* ContentView.swift */; };
 		41AC62BE2A43E4090012DDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AC62BD2A43E4090012DDF8 /* Assets.xcassets */; };
 		41AC62C12A43E4090012DDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AC62C02A43E4090012DDF8 /* Preview Assets.xcassets */; };
+		41AC62C92A43E4530012DDF8 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC62C82A43E4530012DDF8 /* States.swift */; };
+		41AC62CB2A4408470012DDF8 /* TestGroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC62CA2A4408470012DDF8 /* TestGroundApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41AC62B62A43E4080012DDF8 /* TestGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		41AC62B92A43E4080012DDF8 /* TestGroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGroundApp.swift; sourceTree = "<group>"; };
 		41AC62BB2A43E4080012DDF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41AC62BD2A43E4090012DDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41AC62C02A43E4090012DDF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41AC62C82A43E4530012DDF8 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		41AC62CA2A4408470012DDF8 /* TestGroundApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestGroundApp.swift; path = ../../../../.Trash/TestGroundApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,8 @@
 		41AC62B82A43E4080012DDF8 /* TestGround */ = {
 			isa = PBXGroup;
 			children = (
-				41AC62B92A43E4080012DDF8 /* TestGroundApp.swift */,
+				41AC62CA2A4408470012DDF8 /* TestGroundApp.swift */,
+				41AC62C72A43E42A0012DDF8 /* States */,
 				41AC62BB2A43E4080012DDF8 /* ContentView.swift */,
 				41AC62BD2A43E4090012DDF8 /* Assets.xcassets */,
 				41AC62BF2A43E4090012DDF8 /* Preview Content */,
@@ -65,6 +68,14 @@
 				41AC62C02A43E4090012DDF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41AC62C72A43E42A0012DDF8 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				41AC62C82A43E4530012DDF8 /* States.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AC62CB2A4408470012DDF8 /* TestGroundApp.swift in Sources */,
+				41AC62C92A43E4530012DDF8 /* States.swift in Sources */,
 				41AC62BC2A43E4080012DDF8 /* ContentView.swift in Sources */,
-				41AC62BA2A43E4080012DDF8 /* TestGroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
